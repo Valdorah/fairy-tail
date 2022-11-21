@@ -1,0 +1,27 @@
+@font-face
+{
+	font-family: maFontTitle;
+	src: url(Fonts/ArgPriht.ttf);
+}
+
+@font-face
+{
+	font-family: maFontText;
+	src: url(Fonts/Cyrodiil.otf);
+}
+
+body
+{
+	background-color: #00CCCC;
+	font-family: maFontText;
+}
+
+header
+{
+	display: none;
+}
+
+footer
+{
+	display: none;
+}

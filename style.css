@@ -1,0 +1,246 @@
+@font-face
+{
+	font-family: maFontTitle;
+	src: url(Fonts/ArgPriht.ttf);
+}
+
+@font-face
+{
+	font-family: maFontText;
+	src: url(Fonts/Cyrodiil.otf);
+}
+
+body
+{
+	font-family: maFontText;
+	font-size: 1.5em;
+	background-image: url(Img/backgr.jpg);
+	background-attachment: fixed;
+	color: white;
+}
+
+header
+{
+	padding: 10px;
+}
+
+nav
+{
+	/*text-align: center;*/
+	background: linear-gradient(rgb(255,255,255), rgb(0,0,0));
+	box-shadow: 7px 7px 10px black;
+	border: outset 5px gray;
+	text-decoration: underline;
+}
+
+ul
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu
+{
+	/*display: inline-block;
+	width: 300px;*/
+	list-style-type: none;
+}
+
+.menu:not(:last-child){
+	border-right: 1px white solid;
+}
+
+nav ul li:hover ul.select
+{
+	display: block;
+}
+
+.select
+{
+	display: none;
+	position: absolute;
+	height: 80px;
+	border: 5px outset gray;
+	background-color: rgb(150,150,150);
+}
+
+.episode
+{
+	list-style-type: none;
+}
+.episode li:hover ul.nom{
+	display: block;
+}
+
+.nom{
+	display: none;
+	position: absolute;
+	left: 80%;
+	top: 800px;
+	padding: 10px;
+	border: 5px outset gray;
+	background-color: rgb(150,150,150);
+}
+
+a
+{
+	color: white;
+}
+
+a:visited
+{
+ 	color: cyan;
+}
+
+a:hover
+{
+	color: orange;
+}
+
+.imagePresentation
+{
+	/*width: 320px;
+	height: 180px;*/
+	margin-left: 100px;
+	border: inset 5px gray;
+
+}
+
+h1
+{
+	font-family: maFontTitle;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 2px 2px 0px black;
+}
+
+aside>h3{
+	text-decoration: underline;
+}
+
+h2, h3
+{
+	text-align: center;
+	margin: 0;
+	color: #0033FF;
+}
+
+h2
+{
+	text-decoration: underline;
+}
+
+article
+{
+	min-height: 400px;
+	/*float: left;*/
+	background-color: rgba(150,150,150,0.5);
+	width: 75%;
+	border: outset 5px gray;
+	padding: 10px;
+}
+
+.contenu
+{
+	display: flex;
+	justify-content: center;
+}
+
+
+aside
+{
+	/*margin: 0 0 0 77%;*/
+	background-color: rgba(150,150,150,0.5);
+	height: 400px;
+	width: 20%;
+	border: outset 5px gray;
+	padding: 20px;
+}
+
+.containter
+{
+	display: flex;
+	justify-content: center;
+}
+
+.social
+{
+	height: 40px;
+	width: 40px;
+}
+.reseau
+{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	right: 10px;
+	top: 100px;
+}
+
+.perso
+{
+	height: 200px;
+	width: 200px;
+	border: inset 5px gray;
+}
+
+.gallPh
+{
+	height: 100px;
+	width: 200px;
+	border: inset 5px gray;
+}
+
+#film
+{
+	display: flex;
+	flex-direction: column;
+}
+
+article>.a
+{
+	display: flex;
+	justify-content: center;
+}
+
+
+#contenuFilm
+{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+/*figure
+{
+	margin: 10px 0 0 0;
+}*/
+
+.photo
+{
+	height: 600px;
+	width: 1000px;
+	border: inset 5px gray;
+}
+
+article>.a
+{
+	display: flex;
+	justify-content: center;
+}
+
+form
+{
+	margin: 10px;
+}
+
+footer
+{
+	height: 6%;
+	left: 0;
+	right: 0;
+	/*float: left;
+	text-align: center;*/
+	display: flex;
+	justify-content: center;
+}

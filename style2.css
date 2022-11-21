@@ -1,0 +1,113 @@
+@font-face
+{
+	font-family: maFontTitle;
+	src: url(Fonts/ArgPriht.ttf);
+}
+
+@font-face
+{
+	font-family: maFontText;
+	src: url(Fonts/Cyrodiil.otf);
+}
+
+body
+{
+	background-color: #00CCCC;
+	font-family: maFontText;
+}
+
+nav
+{
+	background-color: #006666;
+	margin: 5px 0 5px 0;
+	border: inset 3px teal;
+	text-align: center;
+}
+
+.menu
+{
+	display: inline-block;
+}
+
+.menu:not(:last-child){
+	border-right: 1px white solid;
+}
+
+nav ul li:hover ul.select
+{
+	display: block;
+}
+
+.select
+{
+	display: none;
+	position: absolute;
+	height: 50px;
+	border: 3px outset teal;
+	background-color: teal;
+}
+
+h1
+{
+	font-family: maFontTitle;
+	text-decoration: underline;
+	text-align: center;
+}
+
+a
+{
+	color: white;
+}
+
+a:visited
+{
+ color:  rgba(0, 255, 0, 1.0);
+}
+
+a:hover
+{
+	color: orange;
+}
+
+aside
+{
+	background-color: #006666;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+	border: inset 3px teal;
+}
+
+article
+{
+	background-color: #006666;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+	border: inset 3px teal;
+}
+
+.social
+{
+	height: 40px;
+	width: 40px;
+}
+
+.perso
+{
+	height: 200px;
+	width: 200px;
+	border: inset 5px teal;
+}
+
+.gallPh
+{
+	height: 100px;
+	width: 200px;
+	border: inset 5px teal;
+}
+
+.photo
+{
+	height: 240px;
+	width: 320px;
+	border: inset 5px gray;
+}
